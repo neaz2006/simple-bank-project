@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: red;
+  text-shadow: 5px 5px 10px gray;
+}
+.login__area {
+  width: 500px;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px gray;
+  padding: 10px;
+}
+.transaction__area {
+  display: none;
+}
+.status {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px gray;
+  padding: 10px;
+}
+.Diposite {
+  background-color: slateblue;
+}
+.Withdrow {
+  background-color: salmon;
+}
+.Blance {
+  background-color: orange;
+}
+.transaction__amount {
+  width: 500px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px gray;
+  margin: auto;
+  padding: 10px;
+}

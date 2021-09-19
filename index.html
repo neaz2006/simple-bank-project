@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login__area" id="login__area">
+      <h1 class="text-center">Wellcome To Your bank</h1>
+      <br />
+      <input type="email" class="form-control" placeholder="Email" /><br />
+      <input
+        type="password"
+        class="form-control"
+        placeholder="Password"
+      /><br />
+      <button class="btn btn-success" id="login__btn">Login</button>
+    </div>
+    <br /><br />
+
+    <div class="transaction__area" id="transaction__area">
+      <div class="row status">
+        <div class="col-md-4 Diposite">
+          <h4>Diposite</h4>
+          <h2>$<span id="diposite__amount">000</span></h2>
+        </div>
+        <div class="col-md-4 Withdrow">
+          <h4>Withdrow</h4>
+          <h2>$<span id="withdrow__amount">000</span></h2>
+        </div>
+        <div class="col-md-4 Blance">
+          <h4>Total Blance</h4>
+          <h2>$<span id="total__blance">1250</span></h2>
+        </div>
+      </div>
+      <br /><br />
+
+      <div class="transaction__amount">
+        <div class="row">
+          <div class="col-md-6">
+            <input
+              type="text"
+              placeholder="$Type Your Diposite Amount"
+              class="form-control"
+              id="diposite__input"
+            /><br />
+            <button class="btn btn-success" id="diposite__btn">Diposite</button>
+          </div>
+          <div class="col-md-6">
+            <input
+              type="text"
+              placeholder="$Type Your Withdrow Amount"
+              class="form-control"
+              id="withdrow__input"
+            /><br />
+            <button class="btn btn-success" id="withdrow__btn">Withdrow</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
